@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<LinearLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:orientation = "vertical"
+	android:background = "#ffffff"
+	android:layout_width = "fill_parent"
+	android:padding="10dp"
+	android:layout_height = "fill_parent">
+	<TextView
+		android:text="Sign In To Account"
+		android:textSize ="40dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:textAlignment="center"
+		android:paddingTop="20dp"
+		android:paddingBottom="70dp"
+		android:textStyle="bold"
+		android:textColor="#ffef6c00" />
+	<TextView
+		android:text="User Name"
+		android:textColor="#000000"
+		android:textSize="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+		android:textAlignment="inherit" />
+	<EditText
+		android:inputType = "text"
+		android:layout_width="match_parent"
+		android:hint="username"
+		android:layout_height="wrap_content"
+		android:id="@+id/Txt_UserName"
+		android:backgroundTint="#ffcb3131" />
+	<TextView
+		android:text="Password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"
+		android:textSize="20dp"
+		android:id="@+id/textView5" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="mypassword"
+		android:id="@+id/Txt_Password" />
+	<Button
+		android:text="Login To Account"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom ="5dp"
+		android:background="#36f"
+		android:textColor="#ffffff"
+		android:id="@+id/btnLogin"
+		android:layout_marginTop="30dp"
+		android:textAllCaps="false"
+		android:textAlignment="center"
+		android:textSize="20dp" /> 
+
+
+
+		<TextView
+		android:text="Dont't have Account Yet ?"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:layout_marginTop="20dp" />
+	<Button
+		android:text="Register An Account"
+		android:layout_width="match_parent"
+		android:layout_marginTop="40.0dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnRegister"
+		android:textColor="#ffffffff"
+		android:background="#ffee8230"
+		android:textSize="20dp"
+		android:textAllCaps="false" />
+
+</LinearLayout>
